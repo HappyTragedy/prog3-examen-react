@@ -1,0 +1,19 @@
+.css-180zv5m-MuiTypography-root-MuiLink-root{
+    text-transform: none !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    color: rgb(51, 153, 255) !important;
+}
+
+.css-41lq9k-MuiPaper-root-MuiAppBar-root{
+    background-color: rgb(10, 25, 41) !important;
+    border-bottom: 1px solid rgb(19, 47, 76) !important;
+}
+
+.css-1riy63v-MuiButtonBase-root-MuiButton-root{
+    border: 1px solid rgba(51, 153, 255, 0.5)!important;
+    color: rgb(51, 153, 255)!important;
+    text-transform: none !important;
+    font-weight: bold !important;
+    border-radius: 23% !important;
+}

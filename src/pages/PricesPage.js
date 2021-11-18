@@ -1,10 +1,12 @@
 import React from "react";
-import Prices from "../components/Prices/Prices";
+import PricesGrid from "../components/PricesGrid/PricesGrid";
+import Hero from "../components/Hero/Hero";
 
 const PricesPage = () => {
   return (
     <>
-      <Prices />
+      <Hero />
+      <PricesGrid />
     </>
   );
 };
