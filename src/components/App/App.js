@@ -3,8 +3,8 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PricesPage from "../../pages/PricesPage";
 import Navbar from "../Navbar/Navbar"
-import Hero from "../Hero/Hero"
 import Footer from "../Footer/footer";
+import PricePage from "../../pages/PricePage";
 
 const darkTheme = createTheme({
   palette: {
@@ -19,8 +19,10 @@ function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Hero />
             <Route exact path="/price/:id">
+              <PricePage />
+            </Route>
+            <Route exact path="/">
               <PricesPage />
             </Route>
             <Route path="*">

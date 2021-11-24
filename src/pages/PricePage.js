@@ -1,6 +1,7 @@
 import { React, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import PricesGrid from "../components/PricesGrid/PricesGrid";
+import PriceData from "../components/PriceData/PriceData";
+import Loader from "../components/Loader/Loader"
 import Container from "@mui/material/Container";
 import axios from "axios"
 
@@ -36,9 +37,7 @@ const PricePage = () => {
     <>
       {loading && <Loader />}
       <Container maxWidth="md" component="main">
-        {!loading && <PricesGrid precios={precios} />}
-        Price details
-        {id}
+        {!loading && <PriceData datos={precios} />}
       </Container>
     </>
   );

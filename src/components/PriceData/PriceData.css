@@ -1,0 +1,42 @@
+.css-tr0lot-MuiContainer-root{
+    background-color: rgb(70, 80, 90);
+    padding-top: 2%;
+}
+
+.css-rr7dug-MuiDivider-root{
+    padding-top: 2%;
+    color: white;
+}
+
+.css-3r7p7y-MuiPaper-root-MuiCard-root{
+    background-color: rgb(10, 25, 41) !important;
+}
+
+.css-46bh2p-MuiCardContent-root{
+    text-align: center;
+    padding: 0 !important;
+}
+
+.css-5lbw0b-MuiTypography-root{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.css-1t6e9jv-MuiCardActions-root{
+    padding-top: 10% !important;
+}
+
+.css-xpvt0i-MuiButtonBase-root-MuiButton-root{
+    margin: 0 auto !important;
+    padding:  1% 4% !important;
+    font-size: 16px !important;
+    border: rgba(75, 175, 29, 0.815) solid 1px !important;
+}
+
+.css-xdmu94-MuiContainer-root{
+    margin-top: 5%;
+}
+
+.css-xdmu94-MuiContainer-root{
+    width: 50% !important;
+}
